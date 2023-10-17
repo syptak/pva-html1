@@ -1,11 +1,14 @@
 body {
-    background-color: rgb(60, 60, 60);
-    color: white;
+    background-color: #fff;
+    color: black;
     font-family: 'Open Sans', sans-serif;
 }
 :root {
     --primary-color: rgb(250,0,50);
     --secondary-color: rgb(200,0,50);
+}
+.bg-dark {
+    background-color: #333;
 }
 .m-auto {
     margin: 0 auto;
@@ -32,6 +35,9 @@ img {
 }
 .color-main {
     color: var(--primary-color);
+}
+.color-secondary {
+    color: #fff;
 }
 #navbar {
     background-color: black;
@@ -66,7 +72,7 @@ img {
     margin: 1rem;
 }
 #showcase {
-    background: #333 url('../img/warcraft-cat.jpg') no-repeat center center/cover;
+    background: #333 url('../img/greek_ruins.jpg') no-repeat center center/cover;
     height: 90vh;
 }
 #showcase .showcase-content {
@@ -77,7 +83,8 @@ img {
     align-items: center;
     height: 100%;
     padding: 0 2;
-    background-color: rgba(0,0,0,0.40);
+    color: #fff;
+    background-color: rgba(0,0,0,0.50);
 }
 .l-heading {
     font-size: 4rem;
@@ -128,4 +135,13 @@ img {
     padding: 2rem;
     border-radius: 50%;
     margin-bottom: 1rem;
+}
+#who {
+    display: flex;
+}
+#who div {
+    flex: 1;
+}
+#who .who-img {
+    background: url('..img/') no-repeat center center/cover;
 }
