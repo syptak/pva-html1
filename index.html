@@ -10,9 +10,14 @@
     <link rel="stylesheet" href="./CCS/style.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <p>Autor stránky: Libor Sypták</p>
+        </div>
+    </header>
     <nav id="navbar">
         <div id="logo">
-            <a href="index.html">Starořecká mytologie a literatura</a>
+            <a href="index.html">Starořecká <span class="text-primary">mytologie a literatura</span></a>
         </div>
         <ul>
             <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
@@ -23,7 +28,7 @@
     </nav>
     <div id="showcase">
         <div class="showcase-content">
-            <h1 class="l-heading">Nejznámější literární díla</h1>
+            <h1 class="l-heading">Nejznámější Starořecké báje a literární díla</h1>
             <p class="lead">Nejznámější knihy obsahující příběhy ze starověkého Řecka.</p>
             <a href="#literatura" class="btn">Dozvědět se víc</a>
         </div>
@@ -31,30 +36,27 @@
     
     <section id="what">
         <div class="container">
-            <h2 class="m-heading text-center">Dozvíte se, <span class="text-primary">že...</span></h2>
+            <h2 class="m-heading text-center" id="literatura">Nejznámější <span class="text-primary">povídky:</span></h2>
             <div class="items">
                 <div class="item">
                     <i class="fas fa-book fa-2x"></i>
                     <div>
-                        <h3>Example 1</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Perspiciatis consequatur repellendus tenetur libero!</p>
+                        <h3>Ilias</h3>
+                        <p>První z dvou eposů (Ilias a Odysseia) napsán starořeckým spisovatelem Homérem. Poisuje...</p>
                     </div>
                 </div>
                 <div class="item">
                     <i class="fas fa-book fa-2x"></i>
                     <div>
-                        <h3>Example 2</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Perspiciatis consequatur repellendus tenetur libero!</p>
+                        <h3>Odysseia</h3>
+                        <p>Druhý epos napsán starořeckým spisovatelem Homérem. Popisuje...</p>
                     </div>
                 </div>
                 <div class="item">
                     <i class="fas fa-book fa-2x"></i>
                     <div>
-                        <h3>Example 3</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Perspiciatis consequatur repellendus tenetur libero!</p>
+                        <h3>Slídiči</h3>
+                        <p>Nejznámější drama od starořeckého dramatika Sofoklése.</p>
                     </div>
                 </div>
             </div>
@@ -63,12 +65,15 @@
    
     <section id="who">
         <div class="who-img"></div>
-        <div class="who-text bg-dark p-2">
-            <h2 class="m-heading">Sample</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <ul class="list">
-                <li>Něco1</li>
-                <li>Něco2</li>
+        <div class="who-text bg-dark p-2 color-secondary">
+            <h2 class="m-heading text-primary">Znamí autoři</h2>
+            <p>Spousta těchto bajek a pověstí se nedá plně připsat jednomu autorovi, protože se vyprávěli slovně z generace na generaci.
+                I přesto se však najdou autoři co buď tyto příběhy posbírali a sepsali, anebo sami vymysleli.
+            </p>
+            <p>Patří mezi ně:</p>
+            <ul class="list text-secondary">
+                <li>Homér</li>
+                <li>Sofoklés</li>
                 <li>Něco3</li>
             </ul>
         </div>
