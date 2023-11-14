@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrační formulář</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <h2 class="m-auto text-center py-1 bg-2 text-primary">Registrační formulář</h2>
+    <form class="bg-dark color-secondary">
+        <div><label for="krestni">Křestní jméno</label></div>
+        <div><input type="text" name="krestni" id="krestni" placeholder="Karel"></div>
+        <div><label for="prijmeni">Příjmení</label></div>
+        <div><input type="text" name="prijmeni" id="prijmeni" placeholder="Novák"></div>
+        <div><label for="email">Váš email</label></div>
+        <div><input type="text" name="email" id="email" placeholder="karel.novak@email.cz"></div>
+
+        <div>
+            <label for="muz">Muž</label>
+            <input type="radio" name="pohlavi" id="muz"> |
+            <label for="zena">Žena</label>
+            <input type="radio" name="pohlavi" id="zena"> |
+            <label for="nonbinary">Non binary</label>
+            <input type="radio" name="pohlavi" id="nonbinary"> |
+        </div>
+    <h2 class="text-secondary">Co se chci dozvědět</h2>
+        <div>
+            <label for="historie">Zajímá mě historie</label>
+            <input type="checkbox" name="historie" id="hitorie"> <br>
+            <label for="filozofie">Zajímají mě filozofové té doby</label>
+            <input type="checkbox" name="filozofie" id="filozofie"> <br>
+            <label for="mytologie">Zajímá mě mytologie a její příběhy</label>
+            <input type="checkbox" name="mytologie" id="mytologie">
+            <div class="btn-m"><input type="submit" value="Odeslat"></div>
+        </div>
+    </form>
+</body>
+</html>
