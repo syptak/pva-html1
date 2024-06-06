@@ -140,6 +140,11 @@ img {
     padding: 1rem;
 
 }
+#what .items a{
+    text-decoration: none;
+    color: black;
+
+}
 #what .item {
     text-align: center;
     padding: 1rem;
@@ -150,20 +155,33 @@ img {
     border-radius: 50%;
     margin-bottom: 1rem;
 }
+#what .items .item:hover {
+    background-color: lightgrey;
+    border-radius: 10%;
+}
 #what .item:hover i{
     background-color: var(--secondary-color);
 }
 #who {
     display: flex;
-    max-width: 600px;
+    max-width: 650px;
     margin: auto;
 }
 #who div {
     flex: 1;
     padding: 1rem 1rem;
+    border-radius: 5%;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
 }
 #who .who-img {
     background: url('../img/busty.jpg') no-repeat center center/cover;
+    border-radius: 5%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+#who div a{
+    color: var(--primary-color);
 }
 form {
     text-align: center;
