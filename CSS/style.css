@@ -36,6 +36,7 @@ h1 {
 }
 h2 {
     font-family: 'Dosis', sans-serif;
+    color: #333;
 }
 img {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -63,6 +64,7 @@ img {
     display: flex;
     list-style: none;
     align-items: center;
+    text-align: end;
 }
 #navbar ul li a {
     padding: 0.25rem;
@@ -208,4 +210,10 @@ th {
 td {
     text-align: right;
     color: white;
+}
+.center {
+    text-align: center;
+}
+section {
+    margin-top: 5rem;
 }
